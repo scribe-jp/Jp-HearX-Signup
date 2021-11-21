@@ -103,8 +103,16 @@ header{
 .form  input:focus:invalid:not(:empty){
     border: 2px solid var(--red)
 }
+.form  select:focus:invalid{
+    border: 2px solid var(--red)
+}
 
 .form  input::placeholder{
+    color: hsl(0, 0%, 60%);
+    font-weight: var(--semi-bold);
+}
+
+.form option{
     color: hsl(0, 0%, 60%);
     font-weight: var(--semi-bold);
 }
@@ -175,6 +183,8 @@ header{
     font-weight: var(--semi-bold);
     display: none;
 }
+
+
 .icon-error{
     margin-bottom: 1.2rem;
     margin-right: 1.2rem;
@@ -228,3 +238,4 @@ header{
         text-align: left;
     }
 }
+

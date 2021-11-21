@@ -35,17 +35,24 @@
                 <img class="icon-error" src="images/icon-error.svg" alt="icon error">
                 <p>Looks like this is not and email</p>
             </div>
-            <div>
-                <select type="gender" class="gender-group" id="gender" name="gender"> 
+            <select type="gender" class="gender-group" id="gender" name="gender" required> 
                   <option value=""disabled selected>Select your gender</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
                   <option value="ratherNotSay">Rather not say</option>
-                </select>
+                  <div id="gender" class="invalid-input">
+                    <img class="icon-error" src="images/icon-error.svg" alt="icon error">
+                    <p>Looks like you did not select a gender</p>
+                </div>
+            </select>
+            
+            
+            <div>
+                
             </div>
             <div>
                 <label class="marketing">I hearby give consent to be contacted
-                    <input type="checkbox" checked="checked">
+                    <input type="checkbox" >
                     <span class="checkmark"></span>
                 </label>
             </div>
@@ -57,6 +64,7 @@
                 <p class="form-footer">By clicking the button, you are agreeing that we <span>sell all your information</span></p>
                 <p class="form-footer">Just kidding...we are <span>HIPAA, GDPR and POPIA</span> compliant</p>
             </div>
+            
         </form>
         
     <script src="script.js"></script>
