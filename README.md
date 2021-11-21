@@ -1,6 +1,6 @@
 # HearX - Techincal Test
 
-![HearX Submit Form](./images/hearx.jpg)
+![HearX Submit Form](./images/hearx.png)
 
 ## Welcome! 👋
 
