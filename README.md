@@ -19,3 +19,4 @@ Simply double click on the index.html
 * I also decided to use a dropdown rather than the radio button. The dropdown design looked much more coherent to the rest of the design than radio buttons. I could not get the radio buttons to look as modern as the rest of the boxes. So I decided to use radio boxes.
 
 
+

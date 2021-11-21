@@ -16,9 +16,11 @@
             Our core values are people-first, quality innovation and trust.</h2>
     </header>
     <main>
+        <!---banner to display HearX what the form is about --->
         <div class="banner">
             <p class="text"><strong>HearX Group</strong> Signup Form</p>
         </div>
+        <!---Form to capture all data --->
         <form class="form">
             <input type="text" placeholder="First Name" required>
             <div id="first-name" class="invalid-input">
@@ -35,6 +37,7 @@
                 <img class="icon-error" src="images/icon-error.svg" alt="icon error">
                 <p>Looks like this is not and email</p>
             </div>
+            <!---dropdown to select gender --->
             <select type="gender" class="gender-group" id="gender" name="gender" required> 
                   <option value=""disabled selected>Select your gender</option>
                   <option value="male">Male</option>
@@ -45,11 +48,11 @@
                     <p>Looks like you did not select a gender</p>
                 </div>
             </select>
-            
-            
+                       
             <div>
-                
+              
             </div>
+            <!--- radio button to opt in or out of marketing and contact --->
             <div>
                 <label class="marketing">I hearby give consent to be contacted
                     <input type="checkbox" >
@@ -57,9 +60,10 @@
                 </label>
             </div>
             
-            
-            <button class="claim">Submit your information to HearX</button>
+            <!---button to sumbit information --->
+            <button class="submitBtn">Submit your information to HearX</button>
 
+            <!---footer notes --->
             <div class="terms">
                 <p class="form-footer">By clicking the button, you are agreeing that we <span>sell all your information</span></p>
                 <p class="form-footer">Just kidding...we are <span>HIPAA, GDPR and POPIA</span> compliant</p>

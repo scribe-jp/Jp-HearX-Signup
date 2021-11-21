@@ -100,13 +100,17 @@ header{
 .form  input,select:focus{
     outline: 1px var(--grayish-blue) solid;
 }
+
+/*change color of border for name, surname and mail boxes if entry is not valid*/
 .form  input:focus:invalid:not(:empty){
     border: 2px solid var(--red)
 }
+/*change color of border for dropdown when no option is selected*/
 .form  select:focus:invalid{
     border: 2px solid var(--red)
 }
 
+/*Colors for the placeholder*/
 .form  input::placeholder{
     color: hsl(0, 0%, 60%);
     font-weight: var(--semi-bold);
@@ -136,7 +140,7 @@ header{
 }
 
 
-.claim{
+.submitBtn{
     color: white;
     font-weight: var(--medium);
     margin-top: 1.5rem;
@@ -147,7 +151,7 @@ header{
     border-radius: 00.4rem;
     box-shadow: 0rem 0.2rem 0rem hsl(154, 59%, 45%);
 }
-.claim:hover{
+.submitBtn:hover{
     background-color: hsl(154, 59%, 45%, 0.5);
     cursor: pointer;
 }
@@ -193,6 +197,7 @@ header{
     z-index: 10;
 }
 
+/*changes attribures to display on different devices... make attributes responsive*/
 @media only screen and (min-width: 800px){
     :root{
         background: hsl(204, 24%, 13%),
