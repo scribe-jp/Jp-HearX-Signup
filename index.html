@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title> HearX | Sign-up Form</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title">HearX <br> The worlds first digital hearing solutions</h1>
+        <h2 class="description">We are a vision-led, value-driven company chasing impact
+            Our core values are people-first, quality innovation and trust.</h2>
+    </header>
+    <main>
+        <div class="banner">
+            <p class="text"><strong>HearX Group</strong> Signup Form</p>
+        </div>
+        <form class="form">
+            <input type="text" placeholder="First Name" required>
+            <div id="first-name" class="invalid-input">
+                <img class="icon-error" src="images/icon-error.svg" alt="icon error">
+                <p>First Name cannot be empty</p>
+            </div>
+            <input type="text" placeholder="Last Name" required>
+            <div id="last-name" class="invalid-input">
+                <img class="icon-error" src="images/icon-error.svg" alt="icon error">
+                <p>Last Name cannot be empty</p>
+            </div>
+            <input type="email" placeholder="Email Address" required>
+            <div id="email" class="invalid-input">
+                <img class="icon-error" src="images/icon-error.svg" alt="icon error">
+                <p>Looks like this is not and email</p>
+            </div>
+            <div>
+                <select type="gender" class="gender-group" id="gender" name="gender"> 
+                  <option value=""disabled selected>Select your gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="ratherNotSay">Rather not say</option>
+                </select>
+            </div>
+            <div>
+                <label class="marketing">I hearby give consent to be contacted
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            
+            
+            <button class="claim">Submit your information to HearX</button>
+
+            <div class="terms">
+                <p class="form-footer">By clicking the button, you are agreeing that we <span>sell all your information</span></p>
+                <p class="form-footer">Just kidding...we are <span>HIPAA, GDPR and POPIA</span> compliant</p>
+            </div>
+        </form>
+        
+    <script src="script.js"></script>
+</body>
+
+</html>
